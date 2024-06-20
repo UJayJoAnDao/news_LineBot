@@ -6,8 +6,8 @@ from linebot.v3.webhooks import MessageEvent, TextMessageContent
 
 app = Flask(__name__)
 
-configuration = Configuration(access_token='6TNcoG4oh4GxCa0gs1p0iHGLkE1PLx1KhC7vK6AIbBlBUBeefKnP2RCGluWk0w+nnWA3pLxFvVUf+2BWaj+Ur9SvxFipo6I5zNQ80vNyDeaz1nKtahwc5TwP0enOKCiapBtk5oxdokTYaTFhWE17kQdB04t89/1O/w1cDnyilFU=')
-handler = WebhookHandler('018caae5a133cde15c0be85a68149522')
+configuration = Configuration(access_token='')
+handler = WebhookHandler('')
 
 
 @app.route("/callback", methods=['POST'])
